@@ -1,4 +1,4 @@
-# 🚀 BigData ETL Pipeline for Customer360
+# <p align="center"> 🚀 BigData ETL Pipeline for Customer360 </p>
 
 This project demonstrates an **end-to-end ETL process** built with **Apache Spark** and augmented with an **AI Model (Gemini 2.5 Flash)** to handle and analyze comprehensive **Customer 360 data** (Interaction and Behavior). The final transformed data is loaded into a **MySQL** database as a data warehouse and visualized using **Power BI**.
 
