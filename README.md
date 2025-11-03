@@ -30,24 +30,28 @@ This project processes two main data sets to build a comprehensive view of the c
 ---
 
 ## 🗂️ Project Structure
+# Project Structure
+
+```plaintext
 BigData_ETL_Customer360/
-├── etl_customer_interaction.py # ETL interaction data
-├── etl_customer_behavior.py # # ETL behavior data
+├── etl_customer_interaction.py      # ETL interaction data
+├── etl_customer_behavior.py         # ETL behavior data
 ├── data/
-│   ├── log_content_sample # Data for interaction (JSON file)
-│   │   ├── 20220401.json 
-│   │   ├── 20220402.json 
+│   ├── log_content_sample/          # Data for interaction (JSON files)
+│   │   ├── 20220401.json
+│   │   ├── 20220402.json
 │   │   ├── ...
-│   │   └── 20220430.json 
-│   ├── log_search # Data for behavior (Parquet file)
-│   │   ├── 20220601
-│   │   ├── 20220602
-│   │   ├── ...
-│   │   └── 20220714
+│   │   └── 20220430.json
+│   └── log_search/                  # Data for behavior (Parquet files)
+│       ├── 20220601
+│       ├── 20220602
+│       ├── ...
+│       └── 20220714
 ├── mysql-connector-j-8.0.33.jar
 ├── mysql-connector-net-9.5.0
-├── README.md # Project Documentation
-└── report.pdf # Project Report
+├── README.md                        # Project documentation
+└── report.pdf                        # Project report
+```
 
 ---
 
